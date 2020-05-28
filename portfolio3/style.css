@@ -1,0 +1,136 @@
+body,
+html {
+  background: #1c1c22;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+header {
+  background: #2a2a35;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  transition: 200ms all;
+  height: 70px;
+  height: 7rem;
+}
+
+header nav#normal {
+  display: inline-block;
+  color: #35b2c8;
+}
+
+header nav#normal ul {
+  margin: 0;
+  padding: 0;
+  transition: all 300ms;
+  display: inline-block;
+}
+
+header nav#normal ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  position: relative;
+  transition: all 300ms;
+}
+
+header nav#normal ul li a {
+  display: inline-block;
+  padding: 2.17rem;
+  float: none;
+  min-width: 12rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 1px 0 0;
+  text-decoration: none;
+  background: #c8354e;
+  font-weight: 300;
+  transition: all 300ms;
+}
+
+header nav#normal ul li:hover>a {
+  background: #d85168;
+}
+
+header nav#normal ul li ul {
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transition: 300ms all;
+  max-height: 0;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+
+  transform: rotate(0deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.welcome {
+  color: white;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+
+.field {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -500px;
+}
+
+.desc {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  margin-left: 300px;
+  margin-top: 280px;
+}
+
+.flex-container {
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  margin-top: 500px;
+  margin-left: -30px;
+  padding: 200px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+
+.insta {
+  margin-top: -380px;
+  margin-left: 315px;
+  width: 15%;
+}
+
+
+.youtube {
+  margin-top: -140px;
+  margin-left: 635px;
+  width: 12%;
+}
+
+.twitter {
+  margin-top: -140px;
+  margin-left: 900px;
+  width: 15%;
+}
